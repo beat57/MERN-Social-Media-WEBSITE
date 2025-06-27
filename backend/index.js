@@ -19,7 +19,7 @@ app.use(express.urlencoded({
 app.use(express.json());
 app.use(cookieParser()); 
 const corsOptions = {
-    origin:"mern-social-media-website-5t4oonaar-beat57s-projects.vercel.app",
+    origin:"https://mern-social-media-website.onrender.com",
     credentials:true
 }
 app.use(cors(corsOptions));
