@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser()); 
 
 const allowedOrigins = [
-    
+    "https://mern-social-media-website.onrender.com",
     "http://localhost:3000" // For local development
 ];
 
