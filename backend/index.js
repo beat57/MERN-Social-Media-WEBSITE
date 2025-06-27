@@ -19,7 +19,7 @@ app.use(express.urlencoded({
 app.use(express.json());
 app.use(cookieParser()); 
 const corsOptions = {
-    origin:"http://localhost:3000",
+    origin:"mern-social-media-website-5t4oonaar-beat57s-projects.vercel.app",
     credentials:true
 }
 app.use(cors(corsOptions));
